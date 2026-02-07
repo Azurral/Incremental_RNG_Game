@@ -39,6 +39,11 @@ export interface Buff {
   // Frenzy mechanic - guaranteed double with disable risk
   frenzyDisableChance?: number;     // e.g., 0.20 = 20% chance to disable (FRENZY)
   frenzyDisableDuration?: number;   // e.g., 45 = disable for 45 seconds (FRENZY)
+
+  // Generic disable fields used by some buff definitions/scripts
+  disableChance?: number;           // e.g., 0.10 = 10% chance to disable (generic)
+  disableMinDuration?: number;      // e.g., 60 = minimum disable duration in seconds
+  disableMaxDuration?: number;      // e.g., 80 = maximum disable duration in seconds
   
   // Strain mechanic
   strainFailChance?: number;        // e.g., 0.25 = 25% chance to disable (STRAIN)
