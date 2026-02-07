@@ -1,0 +1,21 @@
+<svg width="1466" height="793" viewBox="0 0 1466 793" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="2" y="2" width="1462" height="789" rx="8" fill="white"/>
+<rect x="2" y="2" width="1462" height="789" rx="8" stroke="#34342B" stroke-width="4"/>
+<rect width="15" height="528" rx="5" transform="matrix(-1 0 0 1 1449 133)" fill="black" fill-opacity="0.4"/>
+<rect x="-2" y="2" width="11" height="524" rx="3" transform="matrix(-1 0 0 1 1445 133)" stroke="black" stroke-opacity="0.4" stroke-width="4"/>
+<g clip-path="url(#clip0_0_7)">
+<rect x="1428" y="126" width="27" height="88" rx="10" fill="black" fill-opacity="0.4"/>
+<rect x="1430" y="118" width="23" height="89" rx="8" fill="#BDBDBD"/>
+<rect x="1430" y="118" width="23" height="89" rx="8" stroke="#34342B" stroke-width="4"/>
+<rect x="1430" y="118" width="23" height="81" rx="8" fill="white"/>
+<rect x="1430" y="118" width="23" height="81" rx="8" stroke="#34342B" stroke-width="4"/>
+<path d="M1436 159L1447 159" stroke="#34342B" stroke-width="4" stroke-linecap="round"/>
+<path d="M1436 150L1447 150" stroke="#34342B" stroke-width="4" stroke-linecap="round"/>
+<path d="M1436 168L1447 168" stroke="#34342B" stroke-width="4" stroke-linecap="round"/>
+</g>
+<defs>
+<clipPath id="clip0_0_7">
+<rect width="27" height="98" fill="white" transform="translate(1428 116)"/>
+</clipPath>
+</defs>
+</svg>

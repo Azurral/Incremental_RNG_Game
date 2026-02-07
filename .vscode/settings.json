@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^Select-String -Path \"src\\\\game\\\\constants\\\\buffs\\.ts\" -Pattern 'type: \"' \\| ForEach-Object \\{ \\$_\\.Line\\.Trim\\(\\) \\} \\| Sort-Object -Unique$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
