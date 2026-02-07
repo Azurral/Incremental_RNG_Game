@@ -10,10 +10,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-overclock",
       name: "Overclock Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-overclock-5",
@@ -35,10 +34,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-burnout",
       name: "Burnout Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-burnout-5",
@@ -61,10 +59,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-strain",
       name: "Strain Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-strain-5",
@@ -86,10 +83,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-hyperdrive",
       name: "Hyperdrive Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-hyperdrive-5",
@@ -113,10 +109,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-meltdown",
       name: "Meltdown Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-meltdown-5",
@@ -129,8 +124,6 @@ export const createTestPets = (): Pet[] => {
           nextTierChanceBonus: 0.40,
           areaRadius: 0,
           moveInterval: 0,
-          disableChanceIncrement: 0.025,
-          disableChanceMax: 0.45,
           disableMinDuration: 90,
           disableMaxDuration: 120,
         },
@@ -141,10 +134,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-frenzy",
       name: "Frenzy Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-frenzy-5",
@@ -155,7 +147,6 @@ export const createTestPets = (): Pet[] => {
           tickSpeedMultiplier: 0.33,
           areaRadius: 0,
           moveInterval: 0,
-          frenzyGenerationCount: 10,
           disableMinDuration: 30,
           disableMaxDuration: 60,
         },
@@ -166,10 +157,9 @@ export const createTestPets = (): Pet[] => {
       id: "test-pet-exhaust",
       name: "Exhaust Tester",
       rarity: "legendary",
-      gemsPerTick: 5,
-      tickInterval: 40000,
-      baseUpgradeChance: 0.025,
-      tierUpgradeBonus: 0.01,
+      baseGemRate: 5,
+      tickTimeRange: [40, 40],
+      maxGemCapacity: 100,
       buffs: [
         {
           id: "buff-exhaust-5",
